@@ -10,10 +10,13 @@
         .bgcolor-setting
         {
             background-color:linen;
+            overflow-x: hidden;
+
         }
         nav
         {
             background-color:black;
+            width:100%;
         }
         nav a
         {       
@@ -39,13 +42,9 @@
         {
             background-color:black;
         }
-        .text-white
-        {
-            color:white;
-        }
         .title_adjust
         {
-            margin-top:60px;
+            margin-top:80px;
             margin-left:160px;
         }
         .img_adjust
@@ -53,23 +52,27 @@
             margin-top:80px;
             margin-left:180px;
         }
+        div
+        {
+            max-width: 90%;
+        }
+        h1
+        {
+            overflow-wrap: break-word;
+        }
     </style>
 </head>
 <body class="bgcolor-setting">
     <nav class="navbar navbar-expand-lg navbar-background">
-        <div class="col-md-auto">
             <div class="text-left fs-1"><a href="index.html">自己紹介ページ</a></div>
-        </div>
     </nav>
     <div class="title_adjust display-4">概要</div>
-    <div class="container img_adjust">
+    <div class="container-fluid img_adjust">
         <div class="row">
             <div class="col-md-4">
                 <img src="syogi.png" class="img-fluid">
             </div>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-2">
                 <h1>所属校:<a href="career.html">東京都市大学</a></h1>
                 <h1>所属:<a href="timetable.html">メディア情報学部情報システム学科</a></h1>
                 <h1>研究室:<a href="labolatory.html">ソフトウェアテスト研究室</a></h1>
