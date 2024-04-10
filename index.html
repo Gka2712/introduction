@@ -12,10 +12,35 @@
             background-color:linen;
 
         }
-        nav
-        {
-            background-color:black;
+        @media (max-width: 767px) {
+            nav 
+            {
+                width: 300%; 
+            }
         }
+
+        @media (min-width: 768px) and (max-width: 917px) 
+        {
+            nav 
+            {
+                width: 170%; 
+            }
+        }
+
+        @media (min-width: 918px) and (max-width: 1032px) {
+            nav 
+            {
+                width: 120%; 
+            }
+        }
+
+        @media (min-width: 1033px) {
+            nav 
+            {
+                width: 110%; 
+            }
+        }
+
         nav a
         {       
             text-decoration:none;
@@ -39,28 +64,7 @@
         .navbar-background
         {
             background-color: black;
-        }
-        @media (max-width:767px)
-        {
-            .navbar-background
-            {
-                width:300%;
-            }
-        }
-        @media (min-width:768px)and(max-width:991px)
-        {
-            .navbar-background
-            {
-                width:150%;
-            }
-        }
-        @media (min-width:992px){
-            .navbar-background
-            {
-                width:120%;
-            }  
-        }
-        
+        }        
         .title_adjust
         {
             margin-top:80px;
